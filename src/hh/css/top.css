@@ -1,0 +1,209 @@
+body{
+    margin: 0px;
+    background-color: black;
+    background-image: url(../img/back.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.logo{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 300px;
+    height: 140;
+    z-index: 2;
+}
+.header{
+    position: fixed;
+    display: flex;
+    z-index: 3;
+    background: linear-gradient( 
+		#000000ec, 
+		#00000000);
+}
+.item{
+    margin: 0 0 0 262px;
+    padding-right: 20px;
+ }
+.a1{
+    position: relative;
+    top: 25px;
+    font-size: 20px;
+    font-family: gkktt;
+    color: white;
+    height: 120;
+    text-decoration: none;
+    align-items: center;
+    margin: 3px;
+    padding-bottom: 22px;
+    border-bottom: 1.5px solid rgb(255, 101, 54);
+}
+.a2{
+    position: relative;
+    top: 25px;
+    font-size: 20px;
+    font-family: gkktt;
+    color: white;
+    height: 120;
+    text-decoration: none;
+    align-items: center;
+    margin: 3px;
+    padding-bottom: 22px;
+}
+@font-face {
+    font-family: gkktt;
+    src: url("../font/851Gkktt_005.ttf") format("truetype");
+  }
+.test-in{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+main{
+    position: absolute;
+    top: 80px;
+    z-index: 1;
+}
+.main{
+    background-image: url(../img/hunter-puro.png);
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 2;
+}
+.msg{
+    display: flex;
+    justify-content: center;
+    padding: 40px 270px 0px 270px;
+}
+.msg-flex{
+    display: flex;
+    justify-content: center;
+}
+.p1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: gkktt;
+
+    animation-name:blurAnime;
+    animation-duration:1.5s;
+    animation-fill-mode:forwards;
+  }
+  
+  @keyframes blurAnime{
+    from {
+    filter: blur(20px);
+    transform: scale(1.02);
+    }
+  
+    to {
+    filter: blur(0);
+    transform: scale(1);
+    }
+}
+.p2{
+    color: rgb(188, 0, 0);
+    text-align: center;
+    font-size: 60px;
+    margin: 18px;
+    font-family: gkktt;
+    -webkit-text-stroke: 0.5px #FFF;
+
+    animation-name:blurAnime;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+  }
+  
+  @keyframes blurAnime{
+    from {
+    filter: blur(20px);
+    transform: scale(1.02);
+    }
+  
+    to {
+    filter: blur(0);
+    transform: scale(1);
+    }
+}
+.p3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: gkktt;
+}
+.p4{
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-family: gkktt;
+}
+.p5{
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-family: gkktt;
+
+    animation-name:blurAnime;
+    animation-duration:1.5s;
+    animation-fill-mode:forwards;
+  }
+.p6{
+    color: rgb(0, 172, 32);
+    text-align: center;
+    font-size: 60px;
+    margin: 18px;
+    font-family: gkktt;
+    padding-top: 44px;
+    -webkit-text-stroke: 0.5px #FFF;
+
+    animation-name:blurAnime;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+  }
+  .p7{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: gkktt;
+    padding-bottom: 30px;
+
+    animation-name:blurAnime;
+    animation-duration:1.5s;
+    animation-fill-mode:forwards;
+  }
+  
+  @keyframes blurAnime{
+    from {
+    filter: blur(20px);
+    transform: scale(1.02);
+    }
+  
+    to {
+    filter: blur(0);
+    transform: scale(1);
+    }
+}
+hr{
+	position: relative;
+    margin: 160px;
+	height: 1px;
+	border-width: 0;
+	background-image: -webkit-linear-gradient(left,
+	transparent 0%,#ffffff 50%,transparent 100%);
+	background-image:         linear-gradient(90deg,
+	transparent 0%,#ffffff 50%,transparent 100%);
+}
+.x{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.X{
+    width: 45px;
+    height: 45px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}

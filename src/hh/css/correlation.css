@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    background-color: black;
+    background-image: url(../img/back.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.logo{
+    position: relative;
+    top: 10px;
+    left: 26px;
+    width: 300px;
+    height: 140;
+}
+.header{
+    position: fixed;
+    display: flex;
+    background: linear-gradient( 
+		#000000e5, 
+		#00000000);
+}
+.item{
+    margin: 0 0 0 274px;
+    padding-right: 20px;
+ }
+ .a1{
+    position: relative;
+    top: 25px;
+    font-size: 20px;
+    font-family: gkktt;
+    color: white;
+    height: 120;
+    text-decoration: none;
+    align-items: center;
+    margin: 3px;
+    padding-bottom: 22px;
+    border-bottom: 1.5px solid rgb(255, 101, 54);
+}
+.a2{
+    position: relative;
+    top: 25px;
+    font-size: 20px;
+    font-family: gkktt;
+    color: white;
+    height: 120;
+    text-decoration: none;
+    align-items: center;
+    margin: 3px;
+    padding-bottom: 22px;
+}
+@font-face {
+    font-family: gkktt;
+    src: url("../font/851Gkktt_005.ttf") format("truetype");
+  }
+main{
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+}
+.msg-flex{
+    display: flex;
+    justify-content: center;
+}
+.p7{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: gkktt;
+    padding: 0px 495px 0px 495px;
+
+    animation-name:blurAnime;
+    animation-duration:1.5s;
+    animation-fill-mode:forwards;
+  }
+  
+  @keyframes blurAnime{
+    from {
+    filter: blur(20px);
+    transform: scale(1.02);
+    }
+  
+    to {
+    filter: blur(0);
+    transform: scale(1);
+    }
+}
